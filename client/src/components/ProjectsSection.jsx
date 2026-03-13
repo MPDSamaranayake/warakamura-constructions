@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const projects = [
   {
     title: "Luxury Villa",
@@ -31,12 +29,8 @@ function ProjectsSection() {
 
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           {projects.map((project, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              viewport={{ once: true }}
               className="rounded-2xl overflow-hidden shadow-lg bg-white"
             >
               <div className="overflow-hidden">
@@ -53,7 +47,7 @@ function ProjectsSection() {
                   View Project
                 </button>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

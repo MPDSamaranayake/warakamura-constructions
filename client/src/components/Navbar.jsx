@@ -2,9 +2,13 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-gray-900 text-white shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-        <h1 className="text-2xl font-bold text-yellow-400">
-          Warakamura Constructions
-        </h1>
+        <a href="#home" className="flex items-center shrink-0">
+          <img
+            src="/warakamura-logo-light.svg"
+            alt="Warakamura Constructions"
+            className="h-10 w-auto"
+          />
+        </a>
 
         <nav className="hidden md:flex gap-6 text-sm font-medium">
           <a href="#home" className="hover:text-yellow-400">Home</a>

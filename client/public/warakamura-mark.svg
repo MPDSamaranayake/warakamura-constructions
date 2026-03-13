@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Warakamura Constructions mark">
+  <rect x="18" y="18" width="220" height="220" rx="44" fill="#111827"/>
+  <path
+    d="M74 68 L104 68 L128 150 L152 68 L182 68 L146 192 L126 192 L96 104 L66 192 L46 192 L74 68 Z"
+    fill="#FACC15"/>
+  <path
+    d="M104 68 L120 68 L128 92 L136 68 L152 68 L128 126 L104 68 Z"
+    fill="#111827" opacity="0.65"/>
+</svg>

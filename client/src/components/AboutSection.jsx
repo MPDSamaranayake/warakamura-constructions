@@ -1,15 +1,8 @@
-import { motion } from "framer-motion";
-
 function AboutSection() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
-        >
+        <div>
           <h2 className="text-4xl font-bold text-gray-900">About Us</h2>
           <p className="mt-6 text-gray-600 leading-7">
             Warakamura Constructions is dedicated to building high-quality
@@ -31,13 +24,9 @@ function AboutSection() {
               <p className="text-sm text-gray-600">Professionals</p>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.img
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7 }}
-          viewport={{ once: true }}
+        <img
           src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
           alt="Modern house"
           className="rounded-2xl shadow-xl"
