@@ -1,7 +1,9 @@
-import Home from "./pages/Home";
-
 function App() {
-  return <Home />;
+  return (
+    <div style={{ padding: "40px", fontSize: "30px" }}>
+      React is working
+    </div>
+  );
 }
 
 export default App;
